@@ -1,3 +1,4 @@
 "use strict";
-console.log("practice03");
+// CUSTOM TYPE of an OBJECT
+//---------------------------------------------
 //# sourceMappingURL=app.js.map
