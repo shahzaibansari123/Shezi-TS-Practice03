@@ -3,3 +3,9 @@
 type Person ={
     name: string;
 }
+
+// INTERFACES 
+
+interface Person{
+    
+}
