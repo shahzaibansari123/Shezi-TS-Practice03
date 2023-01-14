@@ -1,1 +1,5 @@
-console.log("practice03")
+// custom type of an obbject
+
+type Person ={
+    name: string;
+}
