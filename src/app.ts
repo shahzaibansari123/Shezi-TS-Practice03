@@ -13,6 +13,6 @@ interface Person{
     name: string;
 }
 
-
+let name: Person;
 
 //---------------------------------------------
