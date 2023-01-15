@@ -15,4 +15,8 @@ interface Person{
 
 let name: Person;
 
+name={
+    name : "Shahzaib"
+    }
+
 //---------------------------------------------
