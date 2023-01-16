@@ -13,10 +13,10 @@ interface Person{
     name: string;
 }
 
-let name: Person;
+let uname: Person;
 
-name={
-    name : "Shahzaib"
+uname={
+    name : "Shahzaib",
     }
 
 //---------------------------------------------
