@@ -9,14 +9,20 @@
 // INTERFACES 
 
 // you can do the same task with the custom type or with the interface ig 
-interface Person{
-    name: string;
-}
+// interface Person{
+//     name: string;
+// }
 
-let uname: Person;
+// let uname: Person;
 
-uname={
-    name : "Shahzaib",
-    }
+// uname={
+//     name : "Shahzaib",
+//     }
 
 //---------------------------------------------
+
+
+interface Person{
+    name: string;
+    
+}
