@@ -28,5 +28,6 @@ interface Person{
 }
 
 class Human implements Person{
-    
+    constructor (){
+        }
     }
