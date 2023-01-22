@@ -24,10 +24,15 @@
 
 interface Person{
     name: string;
-    speak(): void;
+    speak(sentence: string): void;
 }
 
 class Human implements Person{
     constructor (){
         }
+
+        
+    speak(sentence: string): void{
+        
+    }
     }
