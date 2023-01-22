@@ -28,11 +28,11 @@ interface Person{
 }
 
 class Human implements Person{
-    constructor (){
+    constructor (public name: string){
         }
 
         
     speak(sentence: string): void{
-        
+
     }
     }
