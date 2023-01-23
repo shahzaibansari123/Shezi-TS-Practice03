@@ -29,7 +29,7 @@ interface Person{
 }
 
 class Human implements Person{
-    constructor (public name: string){
+    constructor (public name: string, private id: string){
         }
 
         
