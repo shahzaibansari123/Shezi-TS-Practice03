@@ -13,11 +13,12 @@
 //     name: string;
 // }
 
-// let uname: Person;
+let uname: Person;
 
-// uname={
-//     name : "Shahzaib",
-//     }
+uname={
+  name : "Shahzaib",
+    speak(sentence: string) : void {},
+}
 
 //---------------------------------------------
 
