@@ -29,6 +29,8 @@ uname={
 //     speak(sentence: string): void;
 // }
 
+import { Person } from "./types";
+
 class Human implements Person{
     constructor (public name: string, private id: string){
         }
