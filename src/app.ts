@@ -21,11 +21,12 @@
 
 //---------------------------------------------
 
+// mOve this into new file 
 
-interface Person{
-    name: string;
-    speak(sentence: string): void;
-}
+// interface Person{
+//     name: string;
+//     speak(sentence: string): void;
+// }
 
 class Human implements Person{
     constructor (public name: string){
