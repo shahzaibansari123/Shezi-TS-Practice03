@@ -45,3 +45,7 @@ uname={
 //ADVANCED TYPES
 
 type Combined= string | number;
+
+let abc : Combined;
+
+abc= 'shezi';
