@@ -29,14 +29,19 @@ uname={
 //     speak(sentence: string): void;
 // }
 
-import { Person } from "./types";
+// import { Person } from "./types";
 
-class Human implements Person{
-    constructor (public name: string, private id: string){
-        }
+// class Human implements Person{
+ //   constructor (public name: string, private id: string){
+   //     }
 
         
-    speak(sentence: string): void{
+ //   speak(sentence: string): void{
 
-    }
-    }
+   // }
+   // }
+
+
+//ADVANCED TYPES
+
+type Combined= string | number;
