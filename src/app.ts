@@ -13,12 +13,12 @@
 //     name: string;
 // }
 
-let uname: Person;
+// let uname: Person;
 
-uname={
-  name : "Shahzaib",
-    speak(sentence: string) : void {},
-}
+// uname={
+//   name : "Shahzaib",
+//     speak(sentence: string) : void {},
+// }
 
 //---------------------------------------------
 
@@ -51,5 +51,12 @@ type Combined= string | number | boolean;
 let abc : Combined;
 
 abc= 'shezi';
+
+
+//intersection types
+
+type Bird={
+  
+}
 
 
