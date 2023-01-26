@@ -56,7 +56,8 @@ abc= 'shezi';
 //intersection types
 
 type Bird={
-  
+  name: string;
+  flyingSpeed: number;
 }
 
 
