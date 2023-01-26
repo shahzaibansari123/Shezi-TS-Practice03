@@ -44,8 +44,12 @@ uname={
 
 //ADVANCED TYPES
 
-type Combined= string | number;
+//union types
+
+type Combined= string | number | boolean;
 
 let abc : Combined;
 
 abc= 'shezi';
+
+
