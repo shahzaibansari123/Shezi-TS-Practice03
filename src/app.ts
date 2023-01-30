@@ -63,6 +63,11 @@ type Bird={
 type Animal={
   name: string;
   runningSpeed: number;
+
 }
+
+type Creature= Bird & Animal;
+
+
 
 
