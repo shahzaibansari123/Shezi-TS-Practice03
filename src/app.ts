@@ -60,4 +60,9 @@ type Bird={
   flyingSpeed: number;
 }
 
+type Animal={
+  name: string;
+  runningSpeed: number;
+}
+
 
