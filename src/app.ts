@@ -68,6 +68,10 @@ type Animal={
 
 type Creature= Bird & Animal;
 
+let xyz: Creature;
 
+xyz={
+  
+}
 
 
