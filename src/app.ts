@@ -77,4 +77,22 @@ xyz={
  
 }
 
+//for interfaces
 
+interface Bird2{
+
+  name: string;
+
+  flyingSpeed: number;
+
+}
+
+interface Animal2 {
+
+  name: string;
+
+  runningSpeed: number;
+
+}
+
+type Creature= 
