@@ -71,7 +71,10 @@ type Creature= Bird & Animal;
 let xyz: Creature;
 
 xyz={
-  
+  name: "Duck",
+ flyingSperd: 25,
+ runningSped: 35,
+ 
 }
 
 
