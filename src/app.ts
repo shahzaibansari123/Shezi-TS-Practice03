@@ -6,9 +6,9 @@
 
 // -------------------------------------------
 
-// INTERFACES 
+// INTERFACES
 
-// you can do the same task with the custom type or with the interface ig 
+// you can do the same task with the custom type or with the interface ig
 // interface Person{
 //     name: string;
 // }
@@ -32,67 +32,54 @@
 // import { Person } from "./types";
 
 // class Human implements Person{
- //   constructor (public name: string, private id: string){
-   //     }
+//   constructor (public name: string, private id: string){
+//     }
 
-        
- //   speak(sentence: string): void{
+//   speak(sentence: string): void{
 
-   // }
-   // }
-
+// }
+// }
 
 //ADVANCED TYPES
 
 //union types
 
-type Combined= string | number | boolean;
+// type Combined = string | number | boolean;
 
-let abc : Combined;
+// let abc: Combined;
 
-abc= 'shezi';
-
+// abc = "shezi";
 
 //intersection types
 
-type Bird={
-  name: string;
-  flyingSpeed: number;
-}
+// type Bird = {
+//   name: string;
+//   flyingSpeed: number;
+// };
 
-type Animal={
-  name: string;
-  runningSpeed: number;
+// type Animal = {
+//   name: string;
+//   runningSpeed: number;
+// };
 
-}
+// type Creature = Bird & Animal;
 
-type Creature= Bird & Animal;
+// let xyz: Creature;
 
-let xyz: Creature;
-
-xyz={
-  name: "Duck",
- flyingSperd: 25,
- runningSped: 35,
- 
-}
+// xyz = {
+//   name: "Duck",
+//   flyingSpeed: 25,
+//   runningSpeed: 35,
+// };
 
 //for interfaces
 
-interface Bird2{
-
+interface Bird2 {
   name: string;
-
   flyingSpeed: number;
-
 }
 
 interface Animal2 {
-
   name: string;
-
   runningSpeed: number;
-
 }
-
-type Creature= 
