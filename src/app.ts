@@ -84,6 +84,8 @@ interface Animal {
   runningSpeed: number;
 }
 
+// the , functionality only allows in interfaces scenario not in class scenario as it inherits only one class
+// you can implements one class with multiple interfaces means the , works for interfaces scenario while extends or implemnts as well 
 interface Creature extends Bird, Animal {
-  
-}
+
+};
