@@ -74,12 +74,16 @@
 
 //for interfaces
 
-interface Bird2 {
+interface Bird {
   name: string;
   flyingSpeed: number;
 }
 
-interface Animal2 {
+interface Animal {
   name: string;
   runningSpeed: number;
+}
+
+interface Creature extends Bird, Animal {
+  
 }
