@@ -111,3 +111,7 @@ runningSpeed: number;
 
 type Creature= Bird | Animal;
 
+
+function log(creature : Creature){
+ 
+ };
