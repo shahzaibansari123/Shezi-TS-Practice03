@@ -74,18 +74,40 @@
 
 //for interfaces
 
-interface Bird {
-  name: string;
-  flyingSpeed: number;
-}
+// interface Bird {
+ //  name: string;
+ //  flyingSpeed: number;
+// }
 
-interface Animal {
-  name: string;
-  runningSpeed: number;
-}
+// interface Animal {
+//   name: string;
+//  runningSpeed: number;
+// }
 
 // the , functionality only allows in interfaces scenario not in class scenario as it inherits only one class
 // you can implements one class with multiple interfaces means the , works for interfaces scenario while extends or implemnts as well 
-interface Creature extends Bird, Animal {
+// interface Creature extends Bird, Animal {
 
-};
+// };
+
+
+//TYPE GUARDS
+
+type Bird = {
+
+   name: string;
+
+   flyingSpeed: number;
+
+ };
+
+ type Animal = {
+
+   name: string;
+
+runningSpeed: number;
+
+ };
+
+
+
