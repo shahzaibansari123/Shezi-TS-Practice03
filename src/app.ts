@@ -109,5 +109,5 @@ runningSpeed: number;
 
  };
 
-
+type Creature= Bird | Animal;
 
