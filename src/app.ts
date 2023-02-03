@@ -113,5 +113,5 @@ type Creature= Bird | Animal;
 
 
 function log(creature : Creature){
- 
+ console.log(creature.name);
  };
