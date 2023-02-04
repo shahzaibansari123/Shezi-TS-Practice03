@@ -123,3 +123,6 @@ function log(creature : Creature){
   console.log(creature.flyingSpeed)
   }
  };
+
+
+log({name: "Dog", runningSpeed: 40})
