@@ -112,6 +112,13 @@ runningSpeed: number;
 type Creature= Bird | Animal;
 
 
+// typeguarding while working on classes
+
+class Animalc {
+ constructor(public name: string , public runningSpeed: number){}
+ }
+
+
 function log(creature : Creature){
  console.log(creature.name);
  if("runningSpeed" in creature){
