@@ -115,6 +115,11 @@ type Creature= Bird | Animal;
 function log(creature : Creature){
  console.log(creature.name);
  if("runningSpeed" in creature){
+
   console.log(creature.runningSpeed)
+
+  }
+ if("flyingSpeed" in creature){
+  console.log(creature.flyingSpeed)
   }
  };
