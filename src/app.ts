@@ -118,6 +118,12 @@ class Animalc {
  constructor(public name: string , public runningSpeed: number){}
  }
 
+class Birdc {
+
+ constructor(public name: string , public flyingSpeed: number){}
+
+ }
+
 
 function log(creature : Creature){
  console.log(creature.name);
