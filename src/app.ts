@@ -109,7 +109,17 @@ runningSpeed: number;
 
  };
 
-type Creature= Bird | Animal;
+
+
+// practicing typguards
+
+
+typte Plants={
+ name: string;
+ plantType: string; 
+ }
+
+type Creature= Bird | Animal | Plants ;
 
 
 // typeguarding while working on classes
