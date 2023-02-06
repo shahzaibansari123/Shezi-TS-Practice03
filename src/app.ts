@@ -127,7 +127,7 @@ class Birdc {
 
 function log(creature : Creature){
  console.log(creature.name);
- if("runningSpeed" in creature){
+ if(creature instanceOf Animal){
 
   console.log(creature.runningSpeed)
 
