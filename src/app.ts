@@ -114,7 +114,7 @@ runningSpeed: number;
 // practicing typguards
 
 
-typte Plants={
+type Plants={
  name: string;
  plantType: string; 
  }
@@ -141,13 +141,19 @@ class Plantc{
 
 function log(creature : Creature){
  console.log(creature.name);
- if(creature instanceOf Animal){
+ if(creature instanceOf Animalc){
 
   console.log(creature.runningSpeed)
 
   }
- if(creature instanceOf Bird){
+ if(creature instanceOf Birdc){
   console.log(creature.flyingSpeed)
+  }
+ 
+ if(creature instanceOf Plantc){
+
+  console.log(creature.plantType)
+
   }
  };
 
