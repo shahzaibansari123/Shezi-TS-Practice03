@@ -138,4 +138,6 @@ function log(creature : Creature){
  };
 
 
-log({name: "Dog", runningSpeed: 40})
+// log({name: "Dog", runningSpeed: 40})
+
+log(new Animal ('dog', 40));
