@@ -132,7 +132,7 @@ function log(creature : Creature){
   console.log(creature.runningSpeed)
 
   }
- if("flyingSpeed" in creature){
+ if(creature instanceOf Bird){
   console.log(creature.flyingSpeed)
   }
  };
