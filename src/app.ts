@@ -134,6 +134,10 @@ class Birdc {
 
  }
 
+class Plantc{
+ constructor (public name: string, public plantType: string){}
+ }
+
 
 function log(creature : Creature){
  console.log(creature.name);
